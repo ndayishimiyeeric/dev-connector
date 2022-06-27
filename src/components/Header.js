@@ -6,12 +6,12 @@ function Header() {
   let locaN;
   let devLoc;
   let showLink;
-  if (winLoc === '/' || winLoc === '/home/register' || winLoc === '/home/login' || winLoc === 'home/developers') {
+  if (winLoc === '/' || winLoc === '/home/register' || winLoc === '/home/login' || winLoc === '/home/developers') {
     locaN = '/';
-    devLoc = 'home/developers';
+    devLoc = '/home/developers';
     showLink = false;
   } else {
-    locaN = 'posts';
+    locaN = '/posts';
     devLoc = '/developers';
     showLink = true;
   }
