@@ -7,3 +7,32 @@
   margin-top: 6rem;
   margin-bottom: 3rem;
 }
+
+// Backgrounds
+.bg {
+  &-primary {
+    @include set-background($primary-color);
+  }
+
+  &-dark {
+    @include set-background($dark-color);
+  }
+
+  &-light {
+    @include set-background($light-color);
+    border: 1px solid #ccc;
+  }
+
+  &-danger {
+    @include set-background($danger-color);
+  }
+
+  &-success {
+    @include set-background($success-color);
+  }
+
+  &-white {
+    @include set-background(#fff);
+    border: 1px solid #ccc;
+  }
+}
