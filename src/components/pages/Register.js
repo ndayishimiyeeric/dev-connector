@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import Header from '../Header';
 
 function Register() {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  };
   return (
     <>
       <Header />
@@ -12,7 +15,7 @@ function Register() {
           <i className="fas fa-user" />
           Create Your Account
         </p>
-        <form className="form">
+        <form onSubmit={handleSubmit} className="form">
           <div className="form-group">
             <input
               type="text"
@@ -53,6 +56,7 @@ function Register() {
         </form>
         <p className="my-1">
           Already have an account?
+          &nbsp;
           <Link
             to="/home/login"
           >
