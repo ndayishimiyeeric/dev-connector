@@ -45,7 +45,7 @@ function Register() {
             />
           </div>
           <button
-            type="button"
+            type="submit"
             className="btn btn-primary"
           >
             Register
