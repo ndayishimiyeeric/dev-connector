@@ -5,6 +5,7 @@ import Login from './components/pages/Login';
 import Developers from './components/pages/Developers';
 import Posts from './components/pages/main/Posts';
 import Profile from './components/pages/Profile';
+import ViewPost from './components/pages/ViewPost';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/developers" element={<Developers />} />
         <Route path="/posts" element={<Posts />} />
         <Route path="/profile/:username" element={<Profile />} />
+        <Route path="/posts/post-:username" element={<ViewPost />} />
       </Routes>
     </>
   );
