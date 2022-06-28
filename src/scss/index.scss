@@ -144,7 +144,7 @@ img {
 
   .profile-exp,
   .profile-edu {
-    &>div {
+    & > div {
       margin-bottom: 1rem;
       padding-bottom: 1rem;
       border-bottom: 1px dotted #ccc;
@@ -165,12 +165,12 @@ img {
     .repo {
       display: flex;
 
-      &>div:first-child {
+      & > div:first-child {
         flex: 7;
         flex-basis: 70%;
       }
 
-      &>div:last-child {
+      & > div:last-child {
         flex: 3;
         flex-basis: 20%;
       }
