@@ -4,6 +4,7 @@ import Register from './components/pages/Register';
 import Login from './components/pages/Login';
 import Developers from './components/pages/Developers';
 import Posts from './components/pages/main/Posts';
+import Profile from './components/pages/Profile';
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
         <Route path="/home/register" element={<Register />} />
         <Route path="/home/login" element={<Login />} />
         <Route path="/home/developers" element={<Developers />} />
+        <Route path="/developers" element={<Developers />} />
         <Route path="/posts" element={<Posts />} />
+        <Route path="/profile/:username" element={<Profile />} />
       </Routes>
     </>
   );
