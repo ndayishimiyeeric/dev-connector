@@ -20,13 +20,17 @@ function Developers() {
             position="Senior Developer"
             company="Microsoft"
             location="Seatle, WA"
+            nameLoc="John doe"
             skills={skills1}
           />
           <Developer
+            img="https://img.freepik.com/free-photo/portrait-happy-young-woman-looking-camera_23-2147892777.jpg?
+                 w=200&t=st=1656431102~exp=1656431702~hmac=8127660fc89ca71332ba3ac84efe8844ef6d3167a4f7162a58dddd304ddf6d2b"
             name="Jane Doe"
             position="Junior Developer"
             company="Facebook"
             location="England"
+            nameLoc="Jane doe"
             skills={skills2}
           />
         </div>

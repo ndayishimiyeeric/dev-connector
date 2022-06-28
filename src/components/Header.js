@@ -42,6 +42,7 @@ function Header() {
         <li>
           <Link to="/dashboard">
             <i className="fas fa-user" />
+            &nbsp;
             <span className="hide-sm">Dashboard</span>
           </Link>
         </li>
@@ -60,6 +61,7 @@ function Header() {
         <li>
           <Link to="/">
             <i className="fas fa-sign-out-alt" />
+            &nbsp;
             <span className="hide-sm">Logout</span>
           </Link>
         </li>
