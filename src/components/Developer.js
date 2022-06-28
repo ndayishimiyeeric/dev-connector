@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Developer(props) {
   const {
-    img, name, position, company, location, skills,
+    img, name, position, company, location, skills, nameLoc,
   } = props;
 
   const winLoc = window.location.pathname;
@@ -15,7 +15,7 @@ function Developer(props) {
     toProfile = false;
     toPath = '/home/register';
   } else {
-    toPath = '/profile';
+    toPath = `/profile/${nameLoc}`;
     toProfile = true;
   }
 
@@ -70,6 +70,7 @@ Developer.propTypes = {
   company: PropTypes.string,
   location: PropTypes.string,
   skills: PropTypes.array, //eslint-disable-line
+  nameLoc: PropTypes.string.isRequired,
 };
 
 Developer.defaultProps = {
