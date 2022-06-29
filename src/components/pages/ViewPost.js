@@ -71,7 +71,12 @@ function ViewPost() {
               placeholder="Comment on this post"
               required
             />
-            <input type="submit" className="btn btn-dark my-1" value="Submit" />
+            <button
+              type="submit"
+              className="btn btn-dark my-1"
+            >
+              Submit
+            </button>
           </form>
         </div>
         {/* Comments */}

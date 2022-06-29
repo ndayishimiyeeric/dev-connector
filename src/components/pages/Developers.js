@@ -12,6 +12,7 @@ function Developers() {
         <h1 className="large text-primary">Developers</h1>
         <p className="lead">
           <i className="fab fa-connectdevelop" />
+          &nbsp;
           Browse and connect with developers
         </p>
         <div className="profiles">
