@@ -6,6 +6,10 @@ import Developers from './components/pages/Developers';
 import Posts from './components/pages/main/Posts';
 import Profile from './components/pages/Profile';
 import ViewPost from './components/pages/ViewPost';
+import Dashboard from './components/pages/Dashboard';
+import EditProfile from './components/EditProfile';
+import AddExperience from './components/AddExperience';
+import AddEducation from './components/AddEducation';
 
 function App() {
   return (
@@ -19,6 +23,10 @@ function App() {
         <Route path="/posts" element={<Posts />} />
         <Route path="/profile/:username" element={<Profile />} />
         <Route path="/posts/post-:username" element={<ViewPost />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard/edit-profile" element={<EditProfile />} />
+        <Route path="/dashboard/add-experience" element={<AddExperience />} />
+        <Route path="/dashboard/add-education" element={<AddEducation />} />
       </Routes>
     </>
   );

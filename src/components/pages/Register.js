@@ -13,6 +13,7 @@ function Register() {
         <h1 className="large text-primary">Sign Up</h1>
         <p className="lead">
           <i className="fas fa-user" />
+          &nbsp;
           Create Your Account
         </p>
         <form onSubmit={handleSubmit} className="form">

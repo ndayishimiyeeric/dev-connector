@@ -13,6 +13,7 @@ function Posts() {
         <h1 className="large text-primary">Posts</h1>
         <p className="lead">
           <i className="fas fa-user" />
+          &nbsp;
           Welcome to the community
         </p>
         <div className="post-form">
@@ -21,7 +22,12 @@ function Posts() {
           </div>
           <form onSubmit={handleSubmit} className="form my-1">
             <textarea cols="30" rows="5" placeholder="Create a post" required />
-            <input type="submit" value="Submit" className="btn btn-dark my-1" />
+            <button
+              type="submit"
+              className="btn btn-dark my-1"
+            >
+              Submit
+            </button>
           </form>
           <div className="posts">
             <Post
