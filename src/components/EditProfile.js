@@ -140,13 +140,13 @@ function EditProfile() {
           >
             submit
           </button>
+          <Link
+            to="/dashboard"
+            className="btn btn-light my-1"
+          >
+            Go Back
+          </Link>
         </form>
-        <Link
-          to="/dashboard"
-          className="btn btn-light my-1"
-        >
-          Go Back
-        </Link>
       </section>
     </>
   );
