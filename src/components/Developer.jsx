@@ -22,7 +22,7 @@ function Developer(props) {
   const skillElement = skills.map((skill) => (
     <li
       key={skill}
-      className="text-primary"
+      className="t-primary"
     >
       <i className="fas fa-check" />
       &nbsp;
