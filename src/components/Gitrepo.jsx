@@ -16,17 +16,17 @@ function Gitrepo(props) {
       </div>
       <div>
         <ul>
-          <li className="badge badge-primary">
+          <li className="bdge badge-primary">
             Stars:
             &nbsp;
             {stars}
           </li>
-          <li className="badge badge-dark">
+          <li className="bdge badge-dark">
             Watchers:
             &nbsp;
             {watchers}
           </li>
-          <li className="badge">
+          <li className="bdge">
             Forks:
             &nbsp;
             {forks}

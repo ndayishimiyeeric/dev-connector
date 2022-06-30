@@ -10,26 +10,26 @@ function Posts() {
     <>
       <Header />
       <div className="container">
-        <h1 className="large text-primary">Posts</h1>
+        <h1 className="large t-primary">Posts</h1>
         <p className="lead">
           <i className="fas fa-user" />
           &nbsp;
           Welcome to the community
         </p>
         <div className="post-form">
-          <div className="post-form-header bg-primary">
-            <h3>Say something...</h3>
+          <div className="post-form-header mb-3">
+            <h4>Say something...</h4>
           </div>
-          <form onSubmit={handleSubmit} className="form my-1">
+          <form onSubmit={handleSubmit} className="form mb-3">
             <textarea cols="30" rows="5" placeholder="Create a post" required />
             <button
               type="submit"
-              className="btn btn-dark my-1"
+              className="btn btn-dark mt-3"
             >
               Submit
             </button>
           </form>
-          <div className="posts">
+          <div className="posts mt-5">
             <Post
               img="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
               name="John doe"

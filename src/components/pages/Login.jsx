@@ -29,7 +29,7 @@ function Login() {
     <>
       <Header />
       <section className="container">
-        <h1 className="large text-primary">Sign In</h1>
+        <h1 className="large t-primary">Sign In</h1>
         <p className="lead">
           <i className="fas fa-user" />
           &nbsp;

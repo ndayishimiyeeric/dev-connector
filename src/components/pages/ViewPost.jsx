@@ -34,7 +34,7 @@ function ViewPost() {
         >
           Back To Posts
         </Link>
-        <div className="post bg-white p-1 my-1">
+        <div className="post bg-white p-1 mt-3 mb-3">
           <div>
             <Link
               to={`/profile/${username}`}
@@ -60,10 +60,10 @@ function ViewPost() {
         </div>
         {/* Add comment */}
         <div className="post-form">
-          <div className="post-form-header bg-primary">
+          <div className="post-form-header mb-3">
             <h3>Leave a comment</h3>
           </div>
-          <form className="form my-1" onSubmit={handleSubmit}>
+          <form className="form mt-1 mb-1" onSubmit={handleSubmit}>
             <textarea
               name="text"
               cols="30"
@@ -73,7 +73,7 @@ function ViewPost() {
             />
             <button
               type="submit"
-              className="btn btn-dark my-1"
+              className="btn btn-dark mt-2 mb-5"
             >
               Submit
             </button>
@@ -81,7 +81,6 @@ function ViewPost() {
         </div>
         {/* Comments */}
         <div className="posts">
-          <p className="lead text-primary">Comments</p>
           <Comment
             name={cmName}
             img={cmImg}

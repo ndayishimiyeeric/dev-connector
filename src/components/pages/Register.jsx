@@ -10,7 +10,7 @@ function Register() {
     <>
       <Header />
       <section className="container">
-        <h1 className="large text-primary">Sign Up</h1>
+        <h1 className="large t-primary">Sign Up</h1>
         <p className="lead">
           <i className="fas fa-user" />
           &nbsp;

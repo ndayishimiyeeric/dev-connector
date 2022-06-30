@@ -7,7 +7,7 @@ function Post(props) {
     name, img, likes, dislikes,
   } = props;
   return (
-    <div className="post bg-white my-1 p-1">
+    <div className="post bg-white mt-4 p-1">
       <div>
         <Link
           to={`/profile/${name}`}
